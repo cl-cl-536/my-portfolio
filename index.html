@@ -3,56 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <!-- Bootstrap CSS -->
+    <title>Crisann Lobo - Portfolio</title>
+    <!-- Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #007bff;
+            color: white;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">My Portfolio</a>
+            <a class="navbar-brand" href="#">Crisann Lobo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/cl-cl-536" target="_blank">GitHub</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-section text-center text-white">
-        <div class="container">
-            <h1>Hello, I'm <span class="highlight">Crisann Lobo</span></h1>
-            <p>I'm a Computer Engineering student at FRCRCE</p>
-        </div>
-    </header>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Exploring, Learning, and Building.</p>
+    </div>
 
-    <!-- About Section -->
-    <section id="about" class="container text-center my-5">
+    <!-- About Me Section -->
+    <div class="container" id="about">
         <h2>About Me</h2>
-        <p>I'm a First Year Computer C student, Roll No: 10743. Passionate about technology and coding!</p>
-    </section>
+        <p>Hi, I'm <strong>Crisann Lobo</strong>, a first-year Computer Engineering student at FRCRCE, Bandra.  
+        I’m always eager to learn and build new things. Whether it’s experimenting in the lab, debugging code, or collaborating on projects, I thrive on challenges and innovation.</p>
+    </div>
 
     <!-- Contact Section -->
-    <section id="contact" class="container text-center my-5">
+    <div class="container" id="contact">
         <h2>Contact Me</h2>
-        <p>Email: crisannlobo@gmail.com</p>
-        <a href="https://github.com/your-username" class="btn btn-dark">Visit My GitHub</a>
-    </section>
+        <p>Email: <a href="mailto:crisannlobo@gmail.com">crisannlobo@gmail.com</a></p>
+    </div>
 
     <!-- Footer -->
-    <footer class="text-center py-3 bg-dark text-white">
-        <p>&copy; 2025 Crisann Lobo. All Rights Reserved.</p>
-    </footer>
+    <div class="footer">
+        <p>&copy; 2025 Crisann Lobo</p>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
